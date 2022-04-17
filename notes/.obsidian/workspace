@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "386bbcc4513b420c",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a64e738df303997",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Data Structures.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "702aa1c7979ba11e",
+    "type": "split",
+    "children": [
+      {
+        "id": "29cdafbb66f1cf6e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98d3342ff423a9c6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c0e6fc535a2806fd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 301
+  },
+  "right": {
+    "id": "d11e629dbc175903",
+    "type": "split",
+    "children": [
+      {
+        "id": "1cfbcaa7abfb5261",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79aad4631ee67c86",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Data Structures.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6a64e738df303997",
+  "lastOpenFiles": [
+    "Data Structures.md",
+    "Python/Python.md",
+    "pictures/Pasted image 20220414161356.png",
+    "Python/Pandas.md",
+    "Python/Matplotlib.md",
+    "script vs compiler languages.md",
+    "Sorting.md",
+    "Testing/Mockito.md",
+    "Testing/Integration Testing.md",
+    "pictures/Pasted image 20220411184217.png"
+  ]
+}
