@@ -272,6 +272,9 @@ Finally, we got the data without missing values:
 - Unique Values:
 	`df.columnName.value_counts()`
 	`df.columnName.nunique()`
+- All stats:
+	`df.describe(include=all)`
+	`df.describe()`
 
 
 ##### Series.value_counts & Series.unique
@@ -283,4 +286,36 @@ Finally, we got the data without missing values:
 	`df.columnName.unique()`
 	- prints the different values of data that appears within the series
 	- ![[Pasted image 20220414161408.png]]
-- 
+
+#### Visualization in pandas
+- pandas uses [[Matplotlib]] to graph:
+	`pandas.DataFrame.plot()`
+- `x` : feature to plot along the x-axis
+- `y`: feature to plot along the y-axis
+- `kind`: the kind of plot to produce:
+	- bar, histo, line, scatter, etc.
+
+
+##### Histogram:
+
+- Histogram example:
+	- `df.plot(y='Generosity', kind='hist', bins=15)`
+	- ![[Pasted image 20220416231101.png]]
+	- At this point, it is important to take a pause and analyze the graph. Firstly, it is a continuous variable (can take on an uncountable set of values). Secondly, the values fall between 0 and 0.8. We can also see that the mode of the data is about 0.15.
+
+	- The maximum score of 'Generosity' is about 0.8, and there is only one country, which has `'Generosity'` higher than 0.6. You may be interested what country that is, and it is Myanmar, whose `'Happiness Rank'` is 129 out of 157. We can interpret the value as a proportion of generous people in a given country. 0 (or 0%) means there are no generous people, and 1 (or 100%) means that all people are generous.
+	
+	- You may also want to plot histograms of two or more features on one plot. Let's see how it works on `'Economy (GDP per Capita)'`, `'Family'`, which is how people value family in a given country, and `'Health (Life Expectancy)'` features.
+	- `df.plot(y=['Family', 'Health (Life Expectancy)', 'Economy (GDP per Capita)'],   kind='hist', bins=8, alpha=0.5)`
+	- The `alpha` parameter regulates the transparency of the bins.
+	- ![[Pasted image 20220416232130.png]]
+- df['Region'].value_counts().plot(kind='bar')
+- Here's how `value_counts()` transforms the data:
+- ![[Pasted image 20220417002324.png]]
+And this is the resulting bar plot:
+- ![[Pasted image 20220417003615.png]]
+
+##### Scatter plots
+
+A **scatter plot** helps to identify a trend between two features. The first feature is along the x-axis and the second one is along the y-axis. Usually, a point on a graph represents a row from a dataset. The X coordinate of a point is the value of the first feature and the Y coordinate is the value of the second feature.
+

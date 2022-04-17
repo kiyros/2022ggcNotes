@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data Structures.md",
+            "file": "Bias.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures.md",
+                "file": "Bias.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "6a64e738df303997",
   "lastOpenFiles": [
+    "Bias.md",
+    "Cache.md",
+    "Coding Terms.md",
     "Data Structures.md",
-    "Python/Python.md",
-    "pictures/Pasted image 20220414161356.png",
-    "Python/Pandas.md",
-    "Python/Matplotlib.md",
-    "script vs compiler languages.md",
+    "Object Oriented Programming.md",
     "Sorting.md",
-    "Testing/Mockito.md",
-    "Testing/Integration Testing.md",
-    "pictures/Pasted image 20220411184217.png"
+    "script vs compiler languages.md",
+    "Python/Matplotlib.md",
+    "Python/Numpy.md",
+    "Python/Pandas.md"
   ]
 }
