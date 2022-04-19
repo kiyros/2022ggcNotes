@@ -20,4 +20,4 @@ output:
 - `Kind`
 	- area, bar, barh, desity, hist, kde, line,pie
 - `alpha`
-	- the plot fill opacity (from 0 tp 1)
+	- the plot fill opacity (from 0 to 1)

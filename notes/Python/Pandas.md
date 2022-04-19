@@ -408,3 +408,20 @@ wide_df.melt(id_vars='origin', value_vars=wide_df.columns[-3:])
 ```
 - ![[Pasted image 20220419014340.png]]
 
+
+### Merge
+- is static, not a method of the object
+```python
+pd.merge(df1, df2, how {Option})
+```
+Option | Behavior
+--- | --
+`inner` | Use only the key combinations observed in both tables
+`left` | Use all key combinations found in the left table
+`right` | Use all key combinations found in the right table
+`outer` | Use all key combinations observed in both tables together
+
+**index** | **behavior**
+--|--
+`set_index()` | will create a new DataFrame using one or more of its columns as the index
+`reset_index()` | Use all key combinations observed in both tables together

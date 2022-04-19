@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Python/Matplotlib.md",
+            "file": "Python/Pandas.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Matplotlib.md",
+                "file": "Python/Pandas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,10 @@
   },
   "active": "6a64e738df303997",
   "lastOpenFiles": [
-    "Python/Matplotlib.md",
     "Python/Pandas.md",
-    "Pasted image 20220419141700.png",
     "Python/Numpy.md",
+    "Python/Matplotlib.md",
+    "Pasted image 20220419141700.png",
     "pictures/Pasted image 20220411190137.png",
     "pictures/Pasted image 20220411184335.png",
     "Python/Python.md",
