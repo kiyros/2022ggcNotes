@@ -319,3 +319,69 @@ And this is the resulting bar plot:
 
 A **scatter plot** helps to identify a trend between two features. The first feature is along the x-axis and the second one is along the y-axis. Usually, a point on a graph represents a row from a dataset. The X coordinate of a point is the value of the first feature and the Y coordinate is the value of the second feature.
 
+##### Boxplots
+
+This kind of plot is useful to learn and compare the centers of the features (mean and median), and to identify the outliers. Here is the scheme, which describes how it works.
+![[Pasted image 20220417184335.png]]
+Let's draw **boxplots** for `'Freedom'`, which is the freedom to choose what you do in life, and `'Family'` features.
+
+`df.plot(y=['Family', 'Freedom'], kind='box', showmeans=True)`
+
+The `showmeans` parameter regulates whether or not to show the mean on the boxplot.
+![[Pasted image 20220417184359.png]]
+- The mean is represented by the green triangle, the median is represented by the green line inside the box, and outliers are represented by the circles.
+
+
+## Grouping and aggregating data in pandas
+- Aggregation is very important for data analysis. It is used when we need to provide an assessment of our dataset values. By doing aggregation, we transform our data into information.
+
+### DataFrame.aggregate
+- calculate the column summary statistics with the help of `agg()`
+- `aggregate()` is a Pandas DataFrame and Series method that is used for data aggregation. It can be used for one or many functions along any axis. To save some time for the Really Important Things (like Machine Learning or Netflix), you may want to use the shorter version of the method — `agg()`. Let's have a look at the following examples.
+- Suppose we want to find the median value of the penguin body mass. This can be done by applying the `agg()` method to the desired series:
+`df.body_mass_g.agg("median")`
+
+### DataFrame.groupby
+- separate dataset into groups with the help of `groupby()`
+- We can get a statistical output from different columns with aggregation, but to understand the data deeper, we need to have a closer look at various slices, combinations of columns. For this purpose, we can use `groupby()`. It's a very simple tool, especially for those who are already familiar with SQL.
+
+- Now let's check the median bill length for females and males. Group all penguins by their sex and aggregate them with one line:
+`df.groupby(["sex"]).agg({"bill_length_mm":"median"})`
+- ![[Pasted image 20220418222030.png]]
+```python
+df.groupby(["island", "sex"]).agg({"bill_length_mm":"median"})
+```
+- ![[Pasted image 20220418222134.png]]
+`df.groupby(by='sex').count()`
+- group by sex and count
+
+
+## Reshaping and Pivot Tables
+### DataFrame.pivot
+```python
+df.pivot(index='year', columns='month', values='passengers')
+```
+- ![[Pasted image 20220418230714.png]]
+```python
+df.pivot_table(index='origin', columns='model_year', values='horsepower').round(1)
+```
+- ![[Pasted image 20220418230937.png]]
+- The changes are similar to the `.pivot()` case, except that at the intersection of an origin country and a model year, we got the horsepower mean for that year and country.
+
+- You may be wondering: "Why on earth do I need those pivot tables when I could do grouping and aggregations without them?!"  
+- To show you why let's try to implement the following request: "In which year(s) the median horsepower of Japanese cars was less than of the European?" Without a pivot table, the solution could look like this:
+```python
+japan = df.query("origin == 'japan'")\  
+          .groupby(['model_year'])\  
+          .agg({'horsepower':'median'})  
+merged_median_hp = df.query("origin == 'europe'")\  
+                     .groupby(['model_year'])\  
+                     .agg({'horsepower':'median'})\  
+                     .merge(japan,   
+                            on='model_year',   
+                            suffixes=['_europe', '_japan'])  
+merged_median_hp.loc[merged_median_hp.horsepower_europe > merged_median_hp.horsepower_japan]
+```
+- ![[Pasted image 20220418231036.png]]
+- 
+
