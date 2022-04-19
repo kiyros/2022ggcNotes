@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "3674c57d21ac6e02",
+    "type": "split",
+    "children": [
+      {
+        "id": "0cba592bcc444e0b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "notes/Testing/Object Oriented Programming.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a8c86f2bf23b084e",
+    "type": "split",
+    "children": [
+      {
+        "id": "b95b306631dfe72c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d2b6494e29e3ea8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0898269da6a48ea7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b215e1fd4ffbff2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "04de58174fda67fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65a5b43193fc84ad",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notes/Testing/Object Oriented Programming.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0cba592bcc444e0b",
+  "lastOpenFiles": [
+    "notes/Testing/Object Oriented Programming.md",
+    "README.md",
+    "notes/Python/Pandas.md",
+    "notes/Python/Numpy.md",
+    "notes/Python/Matplotlib.md"
+  ]
+}
