@@ -7,9 +7,11 @@
         "id": "6a64e738df303997",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "pictures/Pasted image 20220419020108.png"
+            "file": "Python/Matplotlib.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pictures/Pasted image 20220419020108.png",
+                "file": "Python/Matplotlib.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +89,15 @@
   },
   "active": "6a64e738df303997",
   "lastOpenFiles": [
-    "pictures/Pasted image 20220419020108.png",
-    "Python/Pandas.md",
-    "Python/Python.md",
-    "pictures/Pasted image 20220418230714.png",
     "Python/Matplotlib.md",
+    "Python/Pandas.md",
+    "Pasted image 20220419141700.png",
     "Python/Numpy.md",
-    "Bias.md",
-    "Cache.md",
-    "Coding Terms.md",
-    "Data Structures.md"
+    "pictures/Pasted image 20220411190137.png",
+    "pictures/Pasted image 20220411184335.png",
+    "Python/Python.md",
+    "Data Structures.md",
+    "pictures/Pasted image 20220414161356.png",
+    "script vs compiler languages.md"
   ]
 }
