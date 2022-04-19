@@ -357,7 +357,9 @@ df.groupby(["island", "sex"]).agg({"bill_length_mm":"median"})
 
 
 ## Reshaping and Pivot Tables
+
 ### DataFrame.pivot
+- ![[Pasted image 20220419020054.png]]
 ```python
 df.pivot(index='year', columns='month', values='passengers')
 ```
@@ -365,6 +367,11 @@ df.pivot(index='year', columns='month', values='passengers')
 ```python
 df.pivot_table(index='origin', columns='model_year', values='horsepower').round(1)
 ```
+
+- **index** = the index on the left hand side
+- **columns** = the labels/series of the dataframe
+- **values** = the cross-section of index and columns which show the values
+
 - ![[Pasted image 20220418230937.png]]
 - The changes are similar to the `.pivot()` case, except that at the intersection of an origin country and a model year, we got the horsepower mean for that year and country.
 
@@ -383,5 +390,21 @@ merged_median_hp = df.query("origin == 'europe'")\
 merged_median_hp.loc[merged_median_hp.horsepower_europe > merged_median_hp.horsepower_japan]
 ```
 - ![[Pasted image 20220418231036.png]]
-- 
+
+
+### DataFrame.melt
+- If our data is pivoted and we want to make it flat, we can use the `.melt()` method. The object `wide_df` here refers to the pivot table, containing the average engine horsepower by year and region of the production.
+`wide_df`
+- ![[Pasted image 20220419002325.png]]
+
+- Let's transform all "year" columns into one by calling `.melt()` with suitable parameters. For the `id_vars` argument, we set the column name that contains an identifier. In our case, it is the "origin". Further, we should set the `value_vars` argument to the list of columns. `.melt()` by default takes all other columns for `value_vars` , so we just omit this argument. Then output the first 10 rows of the resulting dataframe:
+```python
+wide_df.melt(id_vars='origin').head(10)
+```
+- ![[Pasted image 20220419002403.png]]
+- We can use `.melt()` for collecting and storing the data from manually inputted tables. Spreadsheets with "wide format" are easier to fill and they can be immediately evaluated by sight, but for analyzing that data with Pandas, it is better to reshape it.
+```python
+wide_df.melt(id_vars='origin', value_vars=wide_df.columns[-3:])
+```
+- ![[Pasted image 20220419014340.png]]
 
