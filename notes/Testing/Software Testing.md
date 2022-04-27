@@ -1,4 +1,3 @@
-
 ### Testing
 - random walk
 	- Might the user select arbitrary paths through the system?

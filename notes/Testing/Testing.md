@@ -63,3 +63,15 @@
 	- A simple mock:
 		- Where does it take place?
 			- in the Junit Test code
+
+
+## Engineer
+- we have to think about pros and cons
+- think optimally (optimization)
+- and why should we do things 
+
+### Abstracting from the ENIAC solution
+1. Recognize a risk
+2. turn risk into a research question
+3. don't speculate, design an explement
+4. gather evidence

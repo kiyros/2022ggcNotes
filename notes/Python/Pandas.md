@@ -357,13 +357,14 @@ df.groupby(["island", "sex"]).agg({"bill_length_mm":"median"})
 
 
 ## Reshaping and Pivot Tables
+pivot tables allows you to manipulate levels in the pivot table will be stored in Multi-Index objects (hierarchical indexes) on the index and columns of the result DataFrame.
 
 ### DataFrame.pivot
-- ![[Pasted image 20220419020054.png]]
+ ![[Pasted image 20220419020054.png]]
 ```python
 df.pivot(index='year', columns='month', values='passengers')
 ```
-- ![[Pasted image 20220418230714.png]]
+![[Pasted image 20220418230714.png]]
 ```python
 df.pivot_table(index='origin', columns='model_year', values='horsepower').round(1)
 ```
@@ -372,7 +373,7 @@ df.pivot_table(index='origin', columns='model_year', values='horsepower').roun
 - **columns** = the labels/series of the dataframe
 - **values** = the cross-section of index and columns which show the values
 
-- ![[Pasted image 20220418230937.png]]
+ ![[Pasted image 20220418230937.png]]
 - The changes are similar to the `.pivot()` case, except that at the intersection of an origin country and a model year, we got the horsepower mean for that year and country.
 
 - You may be wondering: "Why on earth do I need those pivot tables when I could do grouping and aggregations without them?!"  
@@ -389,7 +390,7 @@ merged_median_hp = df.query("origin == 'europe'")\
                             suffixes=['_europe', '_japan'])  
 merged_median_hp.loc[merged_median_hp.horsepower_europe > merged_median_hp.horsepower_japan]
 ```
-- ![[Pasted image 20220418231036.png]]
+ ![[Pasted image 20220418231036.png]]
 
 
 ### DataFrame.melt
@@ -425,3 +426,4 @@ Option | Behavior
 --|--
 `set_index()` | will create a new DataFrame using one or more of its columns as the index
 `reset_index()` | Use all key combinations observed in both tables together
+

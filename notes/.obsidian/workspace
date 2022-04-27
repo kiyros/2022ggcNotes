@@ -90,14 +90,14 @@
   "active": "6a64e738df303997",
   "lastOpenFiles": [
     "Python/Pandas.md",
-    "Python/Numpy.md",
     "Python/Matplotlib.md",
+    "Python/Numpy.md",
+    "Testing/Testing.md",
+    "Testing/Unit Test.md",
+    "Testing/Software Testing.md",
+    "Testing/Mockito.md",
     "Pasted image 20220419141700.png",
     "pictures/Pasted image 20220411190137.png",
-    "pictures/Pasted image 20220411184335.png",
-    "Python/Python.md",
-    "Data Structures.md",
-    "pictures/Pasted image 20220414161356.png",
-    "script vs compiler languages.md"
+    "pictures/Pasted image 20220411184335.png"
   ]
 }
