@@ -28,3 +28,7 @@
 - Start at leaf nodes of the call hierarchy and work up
 - Issues
 	- Introduces "drivers" but they are easier than stubs
+
+
+
+- Stub: These provide canned answers to calls during testing and record info about calls.

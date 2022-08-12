@@ -75,3 +75,5 @@
 2. turn risk into a research question
 3. don't speculate, design an explement
 4. gather evidence
+
+
