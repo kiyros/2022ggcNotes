@@ -1,5 +1,5 @@
 
-
+in this course we will be using [[Python]]
 <h2>ANI vs AGI</h2>
 - ANI
 	- Artificial intelligence
