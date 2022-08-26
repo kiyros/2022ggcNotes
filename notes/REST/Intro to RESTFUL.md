@@ -8,3 +8,15 @@ Rest = representational State transfer
 	- DELETE = delete
 	- GET = Read
 	- POST = Create
+
+A way for a person to communicate to another computer using a computer.
+
+
+@RestController
+- tells spring to make a controller class
+	- which tells spring to make it a "REST-Endpoint"
+
+@RequestMapping
+- tells spring Controller to make an endpoint
+![[Pasted image 20220826141029.png]]
+
