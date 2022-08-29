@@ -20,3 +20,4 @@ A way for a person to communicate to another computer using a computer.
 - tells spring Controller to make an endpoint
 ![[Pasted image 20220826141029.png]]
 
+![[Pasted image 20220829143631.png]]

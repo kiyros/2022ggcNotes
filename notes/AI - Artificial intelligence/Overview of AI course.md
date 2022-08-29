@@ -56,3 +56,7 @@ in this course we will be using [[Python]]
 	- Group a collection of unlabeled objects into cluster of "similar" ones
 	- Image Clustering: Group unlabeled images into cluster of similar images
 		- ex: All images of dogs into one cluster
+
+
+Under-fiting
+- when the model does not fit the data, even when the labels are given.
