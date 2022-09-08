@@ -30,36 +30,45 @@ df = pd.read_csv("textfile.txt" , sep = '')
 		-   we could also pass columns as the second argument in a similar manner: a single label, a list, or a slice.
 	 - ![[Pasted image 20220411184426.png]]
 
-	``` python
-	# If we pass a single argument, Pandas will return a series:
-	df.loc['third']  
+		``` python
+		# If we pass a single argument, Pandas will return a series:
+		df.loc['third']  
+		```
+		- 	![[Pasted image 20220411184217.png]]
+
+		 ``` python
+		 df.loc['third', 'last_name']
+	
+		 # output: `Doe`
+		 ```
+		 - we can get multiple indexes
+		 ```python
+		 df.loc[['first','fourth'], ['last_name', 'birthday']]
 	```
-	- 	![[Pasted image 20220411184217.png]]
+		-  	 ![[Pasted image 20220411190007.png]]
+		- we can get 1st and 4th row and the `last_name` and `birthday`
+	
+		- We can also get a slice of rows
+		```python
+		df.loc['second':'fourth']
+	```
+	
+		-	![[Pasted image 20220411190137.png]]
+	
+		- we can also assign a condition to the query
+		```python
+		df.loc[df.birthday == '12.05.1979', 'last_name':'birthday':2]
+	```
+		- ![[Pasted image 20220411190431.png]]
 
-	 ``` python
-	 df.loc['third', 'last_name']
-
-	 # output: `Doe`
-	 ```
-	 - we can get multiple indexes
-	 ```python
-	 df.loc[['first','fourth'], ['last_name', 'birthday']]
+### .replace
+- good for replacing values or blanks with something useful
+```python
+result['Sent'] = result['Sent'].replace(0, " ")
 ```
-	-  	 ![[Pasted image 20220411190007.png]]
-	- we can get 1st and 4th row and the `last_name` and `birthday`
+- this code snipet replaces all 0s in the function to a blank string in the column `sent`
 
-	- We can also get a slice of rows
-	```python
-	df.loc['second':'fourth']
-```
 
-	-	![[Pasted image 20220411190137.png]]
-
-	- we can also assign a condition to the query
-	```python
-	df.loc[df.birthday == '12.05.1979', 'last_name':'birthday':2]
-```
-	- ![[Pasted image 20220411190431.png]]
 
 
 
