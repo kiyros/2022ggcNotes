@@ -4,7 +4,7 @@ Rest = representational State transfer
 - Rest is orientated towards resources
 - Uniform interface
 	- Create a new resource with POST
-	- Update a resource with HTTP PUT
+	- PUT = Update a resource with HTTP PUT
 	- DELETE = delete
 	- GET = Read
 	- POST = Create

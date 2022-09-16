@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "REST/Intro to RESTFUL.md",
+            "file": "AI - Artificial intelligence/Classifiers.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "REST/Intro to RESTFUL.md",
+                "file": "AI - Artificial intelligence/Classifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "6a64e738df303997",
   "lastOpenFiles": [
-    "AI - Artificial intelligence/Overview of AI course.md",
-    "AI - Artificial intelligence/Supervised learning.md",
-    "REST/Intro to RESTFUL.md",
-    "Python/Matplotlib.md",
-    "Python/Pandas.md",
-    "Python/Numpy.md",
-    "Testing/Integration Testing.md",
-    "Testing/Data Structures.md",
+    "AI - Artificial intelligence/Untitled.md",
+    "AI - Artificial intelligence/Classifiers.md",
     "Python/Python.md",
-    "Testing/QA testing Final.md"
+    "AI - Artificial intelligence/Overview of AI course.md",
+    "Python/Pandas.md",
+    "REST/Intro to RESTFUL.md",
+    "AI - Artificial intelligence/Supervised learning.md",
+    "Python/Matplotlib.md",
+    "Python/Numpy.md",
+    "Testing/Integration Testing.md"
   ]
 }

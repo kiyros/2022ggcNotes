@@ -58,5 +58,19 @@ in this course we will be using [[Python]]
 		- ex: All images of dogs into one cluster
 
 
-Under-fiting
+Under-fitting
 - when the model does not fit the data, even when the labels are given.
+
+
+
+Overfitting:
+- AI trained on training data that performs poorly on new data that it has not seen before or Test data
+
+Underfitting
+- Scores low on R-score
+
+
+
+- Linear and non-linear Decision boundaries
+	- are the visual representation of decisions
+	- aka decision regions, 
