@@ -38,3 +38,30 @@ Logistic Regression
 - Softmax Regression
 
 
+
+Support Vector Machine (SVM)
+- Maximizes the margin
+	- Gives the maximum separation between the two classes
+	- ![[Pasted image 20220923141157.png]]
+
+
+
+Hyperparameters of SVM
+- Kernel
+- c : The regularization parameter as for logistic regression
+- Gamma (Y) : Decides the curvature of the decision boundary
+- Both C and Y control the bias variance tradeoff
+- smaller C,y = less prone to overfitting = more prone to underfitting
+- larger C,y = more prone to overfitting = less prone to underfitting
+
+
+
+
+### K Nearest neighbors
+- Data examples represented as points Euclidean space
+- A Lazy Algorithm - does nothing during the training other than storing the training data and their labels
+
+- K is a tuned hyperparameter 
+- KNN
+	- ![[Pasted image 20220923151623.png]]
+	- 
