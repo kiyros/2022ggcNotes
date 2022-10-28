@@ -43,7 +43,7 @@ Support Vector Machine (SVM)
 - Maximizes the margin
 	- Gives the maximum separation between the two classes
 	- ![[Pasted image 20220923141157.png]]
-
+	- the inputs closest to the dividing hyperplane are used to make a dividing decision.
 
 
 Hyperparameters of SVM
@@ -64,4 +64,39 @@ Hyperparameters of SVM
 - K is a tuned hyperparameter 
 - KNN
 	- ![[Pasted image 20220923151623.png]]
-	- 
+
+
+
+### Random Forest 
+Random Forest, An ensemble of decision trees, takes an average of all the outputs of the decision trees, collection of weaker models to create a stronger model.
+
+
+### Boosting
+- Construct and combine an ensemble of weak learners into a strong learner
+- Applies to any weak ML model as the base estimator
+- Usually applied to shallow decision trees
+	- Trees with a depth of 1,
+
+- Boosting Algos
+	- XGBoost
+	- AdaBoost
+	- Gradient Boosting
+
+#### AdaBoost
+- combines weak models to stronger
+- Boosting and tuning the parameters are more difficult
+- Slower than random forest. 
+- look into Ada-boost Regression model
+
+
+### Naive Bayes
+- A classifier based on the bayes rule
+- Assumes that all the features are conditionally independent given the class label
+- limited range of applications
+- but works well for document and spam
+
+Neural Network
+- Layers of interconnected "Neurons"
+- Details later
+- Significantly outperforms traditional models when data is large and the problem is complex
+- But takes much longer to train. 
