@@ -1,0 +1,16 @@
+- K-means algo
+	- may not give you the best clusters
+	- K-means might terminate, if there is no change in the cluster assignments, it will terminate
+	- Issues
+		- Clustering is "NP-Hard" - unlikely to have an efficient algo 
+			- Solution: try a couple more times and pick the best result
+		- Linear Dimension Reduction:
+			- Principal Component Analysis (PCA)
+		- tsne: T-distributed stochastic neighbor embedding
+	- When does it work well
+		- when the clusters are clearly separated
+		- for higher dimension data, it is harder to visualize like 2d data
+	- When does it NOT work well
+		- ![[Pasted image 20221111141908.png]]
+			- Although we can see the 4 clusters as humans, it is not as easy for machines.
+	- Gaussian Mixture model

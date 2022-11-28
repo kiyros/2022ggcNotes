@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6a64e738df303997",
+            "id": "1bc7d3722f04d34c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI - Artificial intelligence/Neural Networks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "47115d69c98daf80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI - Artificial intelligence/Neural Networks.md",
+                "file": "Testing/Integration Testing.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,16 +48,17 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
+                "query": "SDLC",
+                "matchingCase": true,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -90,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI - Artificial intelligence/Neural Networks.md",
+                "file": "Testing/Integration Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,20 +96,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "47115d69c98daf80",
+  "active": "c0e6fc535a2806fd",
   "lastOpenFiles": [
-    "pictures/Pasted image 20221028141438.png",
-    "AI - Artificial intelligence/Neural Networks.md",
-    "Testing/Bias.md",
-    "Testing/Unit Test.md",
     "Testing/QA testing Final.md",
-    "Testing/Software Testing.md",
-    "Testing/Data Structures.md",
-    "Testing/Coding Terms.md",
+    "Testing/Integration Testing.md",
+    "AI - Artificial intelligence/Neural Networks.md",
     "AI - Artificial intelligence/Hyper Parameter Tuning.md",
-    "AI - Artificial intelligence/Untitled 1.md"
+    "AI - Artificial intelligence/Clustering.md",
+    "AI - Artificial intelligence/Supervised learning.md",
+    "Testing/Coding Terms.md",
+    "AI - Artificial intelligence/Classifiers.md",
+    "AI - Artificial intelligence/Overview of AI course.md",
+    "pictures/Pasted image 20221111141908.png"
   ]
 }

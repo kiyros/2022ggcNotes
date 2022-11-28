@@ -74,3 +74,15 @@ Underfitting
 - Linear and non-linear Decision boundaries
 	- are the visual representation of decisions
 	- aka decision regions, 
+
+
+Cross Validation
+- Separating the test set from the training set. Validation set is part of the training set. The reason why we separate is so that the model will not depend on the test set which is what we use to verify the effectiveness of the model.
+-  ![[Pasted image 20221104151326.png]]
+	- get More data
+	- Regularization
+		- We can make the model simpler so it does not overfit 
+	- dropOut
+- ![[Pasted image 20221104151344.png]]
+- 
+- 
