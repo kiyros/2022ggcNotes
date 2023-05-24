@@ -1,0 +1,169 @@
+{
+  "main": {
+    "id": "3674c57d21ac6e02",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6d4752bcf00cdbd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89c36fdabdc81d16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ChatGPT/Prompting for chatGPT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6cae339dd323c309",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ChatGPT/Prompting for chatGPT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af90e366b21d236b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ChatGPT/Prompting for chatGPT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3468732f8f68800",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a8c86f2bf23b084e",
+    "type": "split",
+    "children": [
+      {
+        "id": "b95b306631dfe72c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d2b6494e29e3ea8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0898269da6a48ea7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0fc78e92e06c3e95",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b215e1fd4ffbff2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "04de58174fda67fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65a5b43193fc84ad",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ChatGPT/Prompting for chatGPT.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "af90e366b21d236b",
+  "lastOpenFiles": [
+    "ChatGPT/Tree of thoughts method.md",
+    "ChatGPT/Prompting for chatGPT.md",
+    "ChatGPT/Untitled.md",
+    "pictures/Pasted image 20230501162142.png",
+    "pictures/Pasted image 20230501155323.png",
+    "pictures/Pasted image 20230501154741.png",
+    "pictures/Pasted image 20230501154559.png",
+    "notes/Testing/Software Testing.md",
+    "ChatGPT",
+    "Untitled.canvas",
+    "notes/AI - Artificial intelligence/Hyper Parameter Tuning.md",
+    "notes/Python/Pandas.md",
+    "notes/Testing/Object Oriented Programming.md",
+    "README.md",
+    "notes/Python/Numpy.md",
+    "notes/Python/Matplotlib.md"
+  ]
+}
