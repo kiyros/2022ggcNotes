@@ -37,19 +37,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ChatGPT/Prompting for chatGPT.md",
+                "file": "notes/Six sigma/Six Sigma yellow belt training.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "c3468732f8f68800",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.7"
               }
             }
           }
@@ -120,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ChatGPT/Prompting for chatGPT.md",
+                "file": "notes/Six sigma/Six Sigma yellow belt training.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,9 +139,20 @@
   },
   "active": "af90e366b21d236b",
   "lastOpenFiles": [
-    "ChatGPT/Tree of thoughts method.md",
     "ChatGPT/Prompting for chatGPT.md",
+    "notes/Six sigma/Six Sigma yellow belt training.md",
+    "notes/Six sigma",
+    "ChatGPT/Tree of thoughts method.md",
     "ChatGPT/Untitled.md",
+    "notes/AI - Artificial intelligence/Overview of AI course.md",
+    "notes/AI - Artificial intelligence/Neural Networks.md",
+    "notes/AI - Artificial intelligence/Hyper Parameter Tuning.md",
+    "notes/AI - Artificial intelligence/Clustering.md",
+    "notes/AI - Artificial intelligence/Classifiers.md",
+    "notes/AI - Artificial intelligence/Supervised learning.md",
+    "notes/Testing/Bias.md",
+    "notes/Python/Python.md",
+    "notes/Python/Pandas.md",
     "pictures/Pasted image 20230501162142.png",
     "pictures/Pasted image 20230501155323.png",
     "pictures/Pasted image 20230501154741.png",
@@ -159,8 +160,6 @@
     "notes/Testing/Software Testing.md",
     "ChatGPT",
     "Untitled.canvas",
-    "notes/AI - Artificial intelligence/Hyper Parameter Tuning.md",
-    "notes/Python/Pandas.md",
     "notes/Testing/Object Oriented Programming.md",
     "README.md",
     "notes/Python/Numpy.md",

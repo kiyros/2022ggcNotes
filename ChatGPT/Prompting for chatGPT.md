@@ -6,21 +6,21 @@
 - Principle 2:
 	- give the model time to think
 ### Tactics for principle 1:
-- Tactic 1: Use Dilimiters
-	- Tripple quotes
-	- Tripple backticks
-	- Tripple dashes
+- Tactic 1: Use Delimiters
+	- Tipple quotes
+	- Tipple backticks
+	- Tipple dashes
 	- Angle Brackets <>
 	- XML tags
 	- This stops prompt injections
 - Tactic 2: Ask for a structured output
 	- "Write the following with the following keys: book_ID, title, etc in JSON format"
-- Tactic 3: Check whearther conidtions are satified check assumptions required to do the task
+- Tactic 3: Check weather conditions are salified check assumptions required to do the task
 - Tactic 4: Few-shot prompting: Give successful examples of completing tasks then ask the model to perform the task
 	- giving an example of a format for the prompt to use:
 		- human: "This is a test format"
 		- Bot 2: "This is a test answer"
-		- -------
+		-------
 		- Answer the prompt in this consistent style.
 		- human: "What is 9 + 10"
 
@@ -35,7 +35,7 @@
 	- Example:
 		- Perform the following actions:
 		- 1 - Summarize the following text by triple \ backticks with 1 sentence.
-		- 2 - Traslate the summary into French.
+		- 2 - Translate the summary into French.
 		- 3 - List each name in the French summary.
 		- 4 - Output a json object that contains the following \ keys: french_summary, num_names.
 		- Separate your answers with line breaks.
@@ -101,4 +101,10 @@
 
 
 
-
+# Content Creation
+1. Find videos that are already successful
+2. prompt: Can you make 10 video titles based on this video/script ? (copy transcript or general summary of the video)
+3. Rework titles
+4. prompt: Create a short script for the top 3 video titles.
+	- Prompt: Create a script for each title, in the style of (X),  
+5. prompt: based on the video and the script, Create description for each of the 3 video titles
